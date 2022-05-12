@@ -115,10 +115,10 @@ fieldset{
 }
 /*** ZONA TERZIARIA ***/
 #zona_terziaria{
+    box-sizing: border-box;
     position: -webkit-sticky;
     position: sticky;
     bottom: 0;
-    border: 2px solid #4CAF50;
     position:sticky;
     height:50px;
     background-color:#00FF90;
