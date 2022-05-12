@@ -1,0 +1,39 @@
+header{
+    z-index: 1;
+    position:fixed;
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    background-color:#1f2839;
+    padding: 20px 20px;
+    align-items: center;
+}
+.box-logo{
+    display: flex;
+    justify-content: center;
+}
+.titolo-pagina{
+    display: flex;
+    justify-content: center;
+}
+.bottone-invita{
+    display: flex;
+    justify-content: center;
+}
+.titolo-pagina h1{
+    font-size:2rem;
+    color:white;
+    text-transform: uppercase;
+}
+
+.bottone-invita button{
+    font-size: 1.8rem;
+    color:#1f2839;
+    padding:15px 60px;
+    background-color: #00FF90;
+    cursor:pointer;
+}
+.bottone-invita button:hover{
+    background-color:white;
+}
