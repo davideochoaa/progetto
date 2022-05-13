@@ -1,0 +1,11 @@
+
+@media only screen and (max-width: 768px){
+
+    .griglia{
+        padding-top:200px;
+    }
+    .contenitore-flex{
+        padding:0 10px;
+    }
+
+}

@@ -1,0 +1,17 @@
+@property --numero {
+  syntax: '<integer>';
+  inherits: true;
+  initial-value: 0;
+}
+
+#numero::before {
+  counter-reset: my-counter var(--numero);
+  content: counter(my-counter);
+  animation: count 10s;
+  animation-duration:10s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes count {
+  to { --numero: 160; }
+}

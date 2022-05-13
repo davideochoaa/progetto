@@ -1,0 +1,183 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Sora:wght@400;700&display=swap');
+@import url('header.css');
+@import url('footer.css');
+@import url('responsive.css');
+@import url('number.css');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Sora', sans-serif;
+}
+
+.griglia{
+    display: grid;
+    background-color: #22292F;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+    /*** SEZIONE CHE CONTIENE I TITOLI ED IL FORM***/
+    #sezione_1{
+        grid-column: 1/13;
+        margin:0 auto;
+        padding: 200px 0;
+        background-color:#22292F;
+        width:100%;
+        height: max-content;
+    }
+
+    .titolo-verde{
+        box-sizing: border-box;
+        text-align: center;
+        font-size:2rem;
+        color:#00FF90;
+    }
+    .label-titolo{
+        color:white;
+        font-size:1.3rem;
+        text-align: center;
+    }
+        /*** CSS - FORM ***/
+        .main-form{
+            width:80%;
+            margin:0 auto;
+            text-align: center;
+            background-color: #15172b;
+            padding:20px;
+        }
+        .label-titolo-2{
+            font-size: 2rem;
+            color:white;
+        }
+
+        form{
+            padding:20px;
+            display:flex;
+            width:100%;
+            justify-content: center;
+        }
+
+        fieldset{
+            border:none;
+        }
+
+        .input-text{
+            margin-bottom:20px;
+            padding:5px 20px;
+        }
+
+        .bottone-form{
+            background-color:#00FF90;
+            color:#15172b;
+            padding:7px 80px;
+            transition: .3s;
+            border:none;
+            cursor:pointer;
+        }
+        .bottone-form:hover{
+            background-color:#6642FF;
+            color:#00FF90;
+        }
+    
+    /*** SEZIONE 2 ***/
+    #sezione_2{
+        grid-column: 1/13;
+        margin:0 auto;
+        padding: 100px 0;
+        background-color:#6642FF;
+        width:100%;
+        box-sizing: border-box;
+        height: max-content;
+    }
+    .titolo-bianco{
+        color:white;
+        font-size:1.7rem;
+        text-align: center;
+    }
+    .contenitore-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+    }
+    .item{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        background-color:#15172b;
+        width:30%;
+        height:200px;
+        transition: .3s;
+    }
+    .item .numero{
+        text-align: center;
+        width:100%;
+        color:white;
+        font-size:3rem;
+    }
+    .item .sub-title-item{
+        color:#00FF90;
+        text-transform: uppercase;
+        width:100%;
+        font-size:1rem;
+        text-align: center;
+    }
+        /*** ANIMAZIONI***/
+        .item:hover{
+            box-shadow: 0 0 50px white;
+            transform: scale(1.1);
+        }
+    /*** SEZIONE STICKY ***/
+    #zona_terziaria{
+        box-sizing: border-box;
+        grid-column: 1/13;
+        position: -webkit-sticky;
+        position: sticky;
+        bottom: 0;
+        height:max-content;
+        background-color:#00FF90;
+        width:100%;
+        text-align: center;
+        transition: .3s;
+        cursor:pointer;
+        color:black;
+        text-decoration: none;
+    }
+    #zona_terziaria:hover{
+        background-color:#15172b;
+        color: #00FF90;
+    }
+    .titolo-blu{
+        display:flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .titolo-blu h3{
+        font-size:1rem;
+    }
+        /*** GALLERIA - PAGINA SECONDARIA ***/
+        .galleria{
+            box-sizing: border-box;
+            display:flex;
+            flex-wrap: wrap;
+            gap:32px;
+            margin:0 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        .item-galleria{
+            background-image: url("/assets/images/persona.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:100%;
+            width:30%;
+            padding-bottom:32%;
+            
+        }

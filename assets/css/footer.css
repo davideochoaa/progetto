@@ -1,0 +1,85 @@
+#footer_index{
+    text-align: center;
+    background-color: #1F2839;
+    width: 100%;
+}
+.icone-social{
+    align-content: center;
+    justify-content: center;
+    padding:20px;
+}
+.icone-social ul{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+.icone-social li{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    transition: 300ms;
+    font-size: 30px;
+    cursor:pointer;
+}
+.icone-social h3{
+    margin-top:0;
+    font-size:1rem;
+    padding-bottom: 10px;
+    color:white;
+}
+.icone-social a{
+    box-sizing: border-box;
+    margin: 0 5px;
+    text-decoration: none;
+    color:white;
+    background-color: #131c2b;
+    padding:10px 15px;
+    border-radius: 100%;
+}
+
+#fb a:hover{
+    color:blue;
+    background-color:#00FF90;
+}
+
+#twitter a:hover{
+    color: rgb(0, 217, 255);
+    background-color:#00FF90;
+}
+#instagram a:hover{
+    color:#ff28d0;
+    background-color:#00FF90;
+}
+#footer_gallery{
+    background-color:#593DD5;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    height:max-content;
+    text-align: center;
+    width: 100%;
+}
+#footer_gallery .icone-social a{
+    box-sizing: border-box;
+    margin: 0 5px;
+    text-decoration: none;
+    color:#593DD5;
+    background-color: white;
+    padding:10px 15px;
+    border-radius: 100%;
+}
+
+#footer_gallery #fb a:hover{
+    color:white;
+    background-color:#1F2839;
+}
+
+#footer_gallery  #twitter a:hover{
+    color: rgb(0, 217, 255);
+    background-color:#1F2839;
+}
+#footer_gallery #instagram a:hover{
+    color:#ff28d0;
+    background-color:#1F2839;
+}

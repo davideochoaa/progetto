@@ -1,0 +1,41 @@
+header{
+    display:flex;
+    position:fixed;
+    left:0;
+    top:0;
+    width: 100%;
+    background-color:#1F2839;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 50px;
+    flex-wrap: wrap;
+}
+.contenitore-header{
+    padding:20px 0;
+}
+.bottone-invita a{
+    font-family: 'Sora', sans-serif;
+    text-decoration: none;
+    color:black;
+    transition: .3s;
+    text-align: center;
+    background-color:#00FF90;
+    padding:15px 60px;
+}
+.titolo-pagina h1{
+    font-family: 'Sora';
+    font-size: 1.3rem;
+    color:white;
+    transition: .3s;
+}
+.titolo-pagina h1:hover{
+    color:#00FF90;
+}
+.bottone-invita a:hover{
+    background-color:black;
+    color:#00FF90;
+}
+#header_gallery{
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 50%, rgba(0,0,0,0) 100%);
+}
